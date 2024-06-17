@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&family=Ubuntu:ital,wght@1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #3498db;
+}
+
+
+.centerDiv{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    margin-bottom: 0.7em;
+    color: white;
+    font-weight: bold;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#msg{
+    margin: 0 0 0.9em 0;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+}
+
+#typingField{
+    padding: 10px;
+    background-color: #444;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+    border: 20px solid #34495e;
+    border-radius: 10px;
+    color: white;
+    font-size: 1rem;
+}
+
+button{
+    margin-top: 1em;
+    padding: 10px 20px;
+    background: #ecf0f1;
+    border: 5px solid #2980b9;
+    border-radius: 20px;
+    font-size: 1rem;
+    font-family: 'Josefin Sans', sans-serif;
+    cursor: pointer;
+}
